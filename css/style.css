@@ -144,7 +144,7 @@ body {
 }
 
 .avk-2k22-logo img {
-    width: inherit;
+    max-width: 100%;
 }
 
 .backgroundc {
