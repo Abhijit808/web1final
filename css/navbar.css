@@ -307,18 +307,17 @@ footer>p {
 }
 
 
-/* ::-webkit-scrollbar{
-    width:1rem;
-    background-color: rgba(255, 255, 255, 0.5);
-    background-color: #000;
+::-webkit-scrollbar{
+    width:0.6rem;
+    background-color: rgba(0, 0, 0, 0.877);
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #FFF;
-    width: 30%;
+    background-color: rgba(107, 19, 223, 0.925);
+     border-radius: 1rem;
 }
 ::-webkit-scrollbar-corner{
     background-color: #888;
-} */
+}
 
 .img1 {
     width: inherit;
@@ -328,6 +327,7 @@ footer>p {
     .hamburger {
         display: block;
         z-index: 999999999;
+        margin: 0 1rem;
     }
     .nav-links {
         padding-left: 1rem;

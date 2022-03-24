@@ -51,5 +51,8 @@
             /* width: 50vw !important; */
             aspect-ratio: 2/1;
         }
+        .heading-main-page {
+            aspect-ratio: 4/1;
+        }   
     }
 }
