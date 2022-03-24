@@ -346,7 +346,9 @@ body {
 .fontsize1{
     font-size: 2.3rem;
 }
-
+.margin{
+  margin-left: 5rem;
+}
 @media screen and (max-width:560px) {
     .heading-home h3 {
         margin-left: 1rem;
