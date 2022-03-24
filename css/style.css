@@ -45,11 +45,9 @@ body {
     z-index: -1;
 } */
 
-.register-section-heading h3 {
-    font-size: 3.5rem;
-    color: var(--main-color);
-    text-align: center;
-}
+/* .register-section-heading h3 {
+   
+} */
 
 
 /* .register-section{
@@ -160,7 +158,7 @@ body {
     /* margin: 5rem 0rem; */
     gap: 3rem;
     /* background-color: #000; */
-    margin-left: 6rem;
+    /* margin-left: 6rem; */
 }
 
 .info {
@@ -306,7 +304,7 @@ body {
 .testimonial {
     /* width: 27%; */
     background-color: #351736;
-    ;
+    border-radius: .5rem;
 }
 
 .testimonial__details {
@@ -336,6 +334,18 @@ body {
     width: inherit;
     border-radius: 50%;
 }
+.fuck{
+    font-size: 1.8rem;
+}
+.fontsize{
+    /* font-size: 1rem; */
+    font-size: 3.5rem;
+    color: var(--main-color);
+    text-align: center;
+}
+.fontsize1{
+    font-size: 0.3rem;
+}
 
 @media screen and (max-width:560px) {
     .heading-home h3 {
@@ -345,17 +355,39 @@ body {
 
 @media screen and (max-width:789px) {
     .heading-home h3 {
-        margin-left: 1rem;
+        margin-left: 0rem;
+        font-size: 1.8rem;
+        text-align: center;
     }
+    .fuck{
+        font-size: 1rem;
+    }
+    
+.nav-anchor {
+    margin:0.6rem;
+}
+.nav-links{
+    margin:0rem;
+}
     .timer {
         /* flex-direction:column; */
         align-items: center;
         width: 60%;
         justify-content: center;
     }
+    .fontsize{
+        font-size: 2rem;
+        color: var(--main-color);
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .fontsize1{
+        font-size: 1.6rem;
+    }
     .register {
         z-index: 0;
-        background-color: #888;
+        background-color: transparent;
     }
     .about {
         flex-direction: column-reverse;
@@ -379,22 +411,18 @@ body {
         gap: 2rem;
     }
     .background h3 {
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 0;
     }
     .background p {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .info>p {
         font-size: 1rem;
     }
-    .register-section-heading h3 {
-        font-size: 2.5rem;
-        color: var(--main-color);
-        text-align: center;
-        width: 93%;
-        margin: auto;
-    }
+    /* .register-section-heading h3 {
+        font-size: 2rem;
+    } */
     .register-section {
         aspect-ratio: 0.6!important;
     }
@@ -418,6 +446,9 @@ body {
     .main-heading {
         font-size: 2rem;
     }
+    .prev,.next{
+        padding: 0.8rem;
+    }
     .prev {
         left: 0%;
     }
@@ -425,8 +456,12 @@ body {
         right: 0%;
     }
     .container_testimonials {
-        max-width: 80%;
+        max-width: 100%;
         margin: auto;
+        border-radius: .5rem;
+    }
+    .testimonial__details{
+        gap:0rem;
     }
 }
 

@@ -36,7 +36,7 @@
 }
 
 .gallery-page-img-container {
-    /* width: 20rem; */
+    width: 20rem;
     margin: 1rem;
     /* position:relative; */
     transition: all 1s ease-in;
@@ -50,8 +50,7 @@
 }
 
 .gallery-page-img {
-    width: 300px;
-    height: 300px;
+    width: inherit;
 }
 
 .gallery-page-img:hover {
@@ -100,5 +99,10 @@
     }
     .heading-main-page {
         aspect-ratio: 4/1;
+    }
+}
+@media screen and (max-width:280px){
+    .gallery-page-img-container{
+        width: 13rem;
     }
 }
