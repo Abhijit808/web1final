@@ -1,18 +1,17 @@
 .header {
-        background-image: url("../images/Rectangle\ 20.png"); 
-        background-position: center;
-        /* background-attachment: fixed; */
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-blend-mode: darken;
-        aspect-ratio: 10/1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        color:antiquewhite;
-        font-size:3rem;
-    
+    background-image: url("../images/Rectangle\ 20.png");
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    aspect-ratio: 10/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+    font-size: 3rem;
 }
 
 .faqs {
@@ -31,9 +30,10 @@
     display: none;
 }
 
-.question:hover+.ans {
+
+/* .question:checked~.ans {
     display: block;
-}
+} */
 
 
 /* .question:focus+.ans {
@@ -61,10 +61,9 @@
 h2 {
     font-size: calc(0.325rem + 0.9vw);
 }
-@media screen and (max-width:747px){
-    
-    .heading-main-page{
+
+@media screen and (max-width:747px) {
+    .heading-main-page {
         aspect-ratio: 4/1;
     }
-    
 }
