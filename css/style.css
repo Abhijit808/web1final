@@ -400,6 +400,7 @@ body {
     .info {
         width: 80%;
         margin-bottom: 2rem;
+        margin-left:0px;
     }
     .info>h3 {
         font-size: 3rem;
